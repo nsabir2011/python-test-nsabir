@@ -1,11 +1,11 @@
 # Python Code Test Solution
-PS: I choose this name so that the folder name doesn't conflict with other applicant's repository if cloned
+PS: I choose this name so that the folder name doesn't conflict with other applicant's repository if cloned and is easily distingushable
 
 #### Requirements
 - Python 3.6+
 
 #### Run All Solutions
-Use this command in the root directory of this repo on a `Ubuntu` terminal or `macOS` terminal or `WSL enabled Windows 10` cmd or powershell
+Use this command in the root directory of this repo on a `Ubuntu` terminal or `macOS` terminal or `WSL enabled Windows 10` cmd or powershell. This will print all the solutions with the sample input given in the question.
 ```bash
 bash run_all_answers_for_smaple_input.sh
 ```
