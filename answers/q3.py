@@ -205,38 +205,3 @@ if __name__ == "__main__":
     # measure_execution_time(False)
     lca(node_6, node_7)
     lca(node_3, node_7)
-    # for pair in permutations([node_1, node_2, node_3, node_4, 
-    #             node_5, node_6, node_7, node_8, node_9, node_10], r=2):
-    #     print('*****')
-    #     solution = recursive(*pair, [], [])
-    #     solution_ = non_recursive(*pair)
-    #     if solution.value != solution_.value:
-    #         print(f'LCA for node {pair[0].value} and {pair[1].value} is {solution.value}')
-
-
-'''
-strio std
-Execution with recursive method took 99.59 ms
-Execution with another_recursive method took 92.77 ms
-Execution with non_recursive method took 62.17 ms
-trash std
-Execution with recursive method took 13084.6 ms 
-Execution with another_recursive method took 12642.12 ms
-Execution with non_recursive method took 12256.03 ms
-prnt std
-Execution with recursive method took 66352.8 ms
-Execution with another_recursive method took 66674.62 ms
-Execution with non_recursive method took 63738.8 ms
-trash rpt
-Execution with recursive method took 1144.64 ms
-Execution with another_recursive method took 1161.56 ms
-Execution with non_recursive method took 1127.43 ms
-prnt rpt
-Execution with recursive method took 6011.8 ms
-Execution with another_recursive method took 6036.65 ms
-Execution with non_recursive method took 5789.77 ms
-strio rpt
-Execution with recursive method took 152.72 ms
-Execution with another_recursive method took 150.45 ms
-Execution with non_recursive method took 117.6 ms
-'''

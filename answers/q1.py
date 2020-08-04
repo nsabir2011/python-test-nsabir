@@ -146,30 +146,3 @@ sys.stdout = save_stdout
 if __name__ == '__main__':
     print_depth(a)
     # measure_execution_time(False)
-
-'''
-Execution with recursive method took 795.32 ms
-Execution with recursive_with_map method took 808.46 ms
-Execution with non_recursive method took 798.18 ms
-Execution with another_non_recursive method took 819.41 ms
-
-Execution with recursive method took 31495.56 ms
-Execution with recursive_with_map method took 31956.85 ms
-Execution with non_recursive method took 33033.61 ms
-Execution with another_non_recursive method took 32483.33 ms
-
-Execution with recursive method took 9709.9 ms 
-Execution with recursive_with_map method took 9900.04 ms
-Execution with non_recursive method took 9190.17 ms
-Execution with another_non_recursive method took 9636.03 ms
-
-Execution with recursive method took 99.35 ms 
-Execution with recursive_with_map method took 149.86 ms
-Execution with non_recursive method took 105.13 ms
-Execution with another_non_recursive method took 141.04 ms
-
-Execution with recursive method took 9.36 ms
-Execution with recursive_with_map method took 14.3 ms
-Execution with non_recursive method took 11.11 ms
-Execution with another_non_recursive method took 24.77 ms
-'''
